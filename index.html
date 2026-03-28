@@ -958,7 +958,6 @@
       const saved = localStorage.getItem('aha_last_name');
       if (saved) document.getElementById('inputName').value = saved;
       render(posts);
-      startPolling();
     } catch(e) {
       console.error('Setup error:', e);
       showToast(`⚠️ ${e.message || 'could not connect — check credentials'}`);
@@ -973,14 +972,6 @@
     showSetup();
   }
 
-  let pollingInterval = null;
-  function startPolling() {
-    if (pollingInterval) clearInterval(pollingInterval);
-    pollingInterval = setInterval(async () => {
-      try { render(await fetchPosts()); } catch {}
-    }, 30000);
-  }
-
   // ── INIT ──
   async function init() {
     const cfg = getCfg();
@@ -993,7 +984,6 @@
     try {
       const posts = await fetchPosts();
       render(posts);
-      startPolling();
     } catch(e) {
       console.error('Init error:', e);
       document.getElementById('feed').innerHTML = `
