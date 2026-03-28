@@ -1,14 +1,14 @@
 # 💡 aha. — our tech moments board
 
-> A tiny shared space for the group to post those "holy shit it finally clicked" moments in tech.
+> A tiny shared space for the group to post those "holy shit it finally clicked" moments and the latest news in tech.
 
-**→ [Open the board](https://YOUR_USERNAME.github.io/aha-moments)** *(swap in the real URL)*
+**→ [Open the board](https://vidhi1203.github.io/tech-updates/)** 
 
 ---
 
 ## first time? do this once
 
-You'll need two things from whoever set this up — a **Bin ID** and a **Master Key**. Ask in the group chat if you don't have them.
+You'll need two things from whoever set this up — a **Bin ID** and a **Master Key**. Ask me on chat if you don't have them.
 
 1. Open the board link above
 2. A setup screen will appear — paste in the Bin ID and Master Key
@@ -52,6 +52,8 @@ Hit any of the emoji buttons on a post to react — **💡🔥🤯👏**. Everyo
 | `concepts` | mental models, CS fundamentals, patterns |
 | `tools` | CLI tools, editors, workflows |
 | `other` | anything that doesn't fit above |
+
+Let me know if you have more category suggestions!
 
 ---
 
